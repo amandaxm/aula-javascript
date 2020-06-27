@@ -1,7 +1,28 @@
+/*
+function somar(n1, n2){
+    return n1 + n2;
+}
+alert(somar(3,4));
 
+function setReplace(frase,nome, novo_nome){
+    return frase.replace(nome,novo_nome);
+}
+alert(somar(3,4));
+alert(setReplace("Vai japao","japao","brasil"));
+*/
+function validaIdade(idade){
+    var validar = true;
 
+    if(idade>=18){
+        validar=true;
+   }else
+   validar=false;
 
-
+   return validar;
+    
+}
+var idade = prompt("Qual idade")
+alert(validaIdade(idade));
 /*
 var nome ="Amanda";
 var idade ="20";
@@ -50,9 +71,9 @@ console.log(frutas[1].nome);
     count = count+1;
  }
  */
-
+/*
  var d =new Date();
  alert(d);
  alert(d.getMonth()+1);
  alert(d.getMinutes());
- 
+ */
